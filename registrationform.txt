@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Event Registration Form</title>
+ </head>
+<body>
+<h2>Event Registration Form</h2>
+<form>
+ <label>First Name:</label><br>
+ <input type="text" name="fname" required><br>
+ <label>Last Name:</label><br>
+ <input type="text" name="lname" required><br>
+ <label>Email:</label><br>
+ <input type="email" name="email" required><br>
+ <label>Phone Number:</label><br>
+ <input type="tel" name="phone" required><br>
+ <label>Date of Birth:</label><br>
+ <input type="date" name="dob" required><br>
+<label>Branch:</label><br>
+ <select name="branch">
+ <option>Select Option</option>
+ <option>CSE</option>
+ <option>CSD</option>
+ <option>AIML</option>
+ </select><br>
+ <label>Event:</label><br>
+ <select name="Event">
+ <option>Select Prgm</option>
+ <option>TCS</option>
+ <option>IBM</option>
+ <option>INFOSIS</option>
+ <option>MICRO</option>
+ </select><br>
+ <label>Gender:</label><br>
+ <input type="radio" name="gender" value="Male"> Male<br>
+ <input type="radio" name="gender" value="Female"> Female
+ <br><br>
+ <input type="submit" value="Register">
+ <input type="reset" value="Clear">
+</form>
+</body>
+</html>
